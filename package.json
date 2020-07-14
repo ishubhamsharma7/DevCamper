@@ -1,0 +1,16 @@
+{
+  "name": "devcamper_api_node",
+  "version": "1.0.0",
+  "description": "DevCamper Backend Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node server",
+    "dev": "node server"
+  },
+  "author": "Shubham Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
